@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Document</title>
-</head>
+<link href="/src/css/common.css" rel="stylesheet"><link href="/src/css/contact.css" rel="stylesheet"></head>
 
 <body>
   <!-- 引入公共页头 -->
-  <%= require("html-loader!../common/header/index.html") %>
+  <header> <div class="center"> <h1 class="logo"></h1> <nav> <a href="/" class="active">首页</a> <a href="/class_index.html">数据咨询产品</a> <a href="/class_list.html">数据分析课程</a> <a href="/contact.html">联系我们</a> </nav> </div> </header>
     <section class="banner" style="background-image: url(/public/img/class-banner.png);">
       <div class="title">公司介绍</div>
       <div class="note">
@@ -62,7 +62,7 @@
       </ul>
     </section>
     <!-- 引入公共页尾 -->
-    <%= require("html-loader!../common/footer/index.html") %>
-</body>
+    <div class="return-up"></div> <footer> <div class="copyright"> ©2020 网站模板—企业培训 版权所有 </div> </footer>
+<script src="/src/js/styles~class_index~class_list~class_view~contact~index.js"></script><script src="/src/js/vendors~class_index~class_list~class_view~contact~index.js"></script><script src="/src/js/contact.js"></script></body>
 
 </html>
