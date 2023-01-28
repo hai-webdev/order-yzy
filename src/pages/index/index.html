@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-swiper swiper-container">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <img src="/public/img/banner.png" alt="">
+        </li>
+        <li class="swiper-slide">
+          <img src="/public/img/banner02.png" alt="">
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </section>
+    <section class="module01">
+      <div class="module-title">
+        <h2 class="title">让数据价值赋能各行各业，让数据分析思维流行起来</h2>
+      </div>
+      <ul class="module01-list center">
+        <li class="module01-item">
+          <div class="img wow fadeInRight" style="background-image: url(/public/img/module01-1.webp);"></div>
+          <div class="title">数据咨询产品</div>
+          <div class="note">
+            <p>精英专家团队</p>
+            <p>数据分析赋能</p>
+            <p>提供最专业咨询服务</p>
+          </div>
+        </li>
+        <li class="module01-item">
+          <div class="img wow fadeInRight" style="background-image: url(/public/img/module01-2.webp);"></div>
+          <div class="title">数据分析课程</div>
+          <div class="note">
+            <p>集结行业专家</p>
+            <p>从商业应用到算法技术</p>
+            <p>打造普通人也能看得懂的商业数据分析课程</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="module02" style="background-image: url(/public/img/module02-bg.png);">
+      <div class="module-title">
+        <h2 class="title">
+          圆之轶致力于用数据分析、算法模型解决企业痛点<br>
+          从供应链到营销端到消费者，打造一体化咨询产品方案
+        </h2>
+      </div>
+      <div class="img wow fadeInLeft">
+        <img src="/public/img/module02.webp" alt="">
+      </div>
+      <div class="text-box">
+        <img src="/public/img/module02-2.webp" alt="">
+        <div class="text text01 wow fadeInRight">专业<br>团队</div>
+        <div class="text text02 wow fadeInRight">数据<br>赋能</div>
+        <div class="text text03 wow fadeInRight">快速<br>迭代</div>
+        <div class="text text04 wow fadeInRight">灵活<br>定制</div>
+        <div class="text text05 wow fadeInRight">高效<br>交付</div>
+      </div>
+    </section>
+    <section class="module03">
+      <div class="module-title">
+        <h2 class="title">圆之轶DataSmart致力于打造普通人也能看得懂的商业数据分析科普课程<br>从技术能力到商业理解全面提升个人能力</h2>
+      </div>
+      <ul class="module03-list center">
+        <li class="module03-item">
+          <div class="img wow fadeInRight" style="background-image: url(/public/img/module03-1.png)"></div>
+          <div class="title">高性价比的录播课程</div>
+          <div class="note">
+            高性价比的录播课程
+          </div>
+        </li>
+        <li class="module03-item">
+          <div class="img wow fadeInRight" style="background-image: url(/public/img/module03-2.png);"></div>
+          <div class="title">免费大咖直播分享</div>
+          <div class="note">免费大咖直播分享</div>
+        </li>
+        <li class="module03-item">
+          <div class="img wow fadeInRight" style="background-image: url(/public/img/module03-3.png);"></div>
+          <div class="title">学员社群讨论分享</div>
+          <div class="note">学员社群讨论分享</div>
+        </li>
+      </ul>
+    </section>
+    <section class="module04">
+      <ul class="module04-list center">
+        <li class="module04-item">
+          <div class="bg-img">
+            <img src="/public/img/module04-1.webp" alt="">
+          </div>
+          <div class="text">
+            <div class="cn-title">销量预测</div>
+            <div class="en-title">加快库存周转率</div>
+          </div>
+        </li>
+        <li class="module04-item">
+          <div class="bg-img">
+            <img src="/public/img/module04-1.webp" alt="">
+          </div>
+          <div class="text">
+            <div class="cn-title">精准营销</div>
+            <div class="en-title">提升营销效率</div>
+          </div>
+        </li>
+        <li class="module04-item">
+          <div class="bg-img">
+            <img src="/public/img/module04-1.webp" alt="">
+          </div>
+          <div class="text">
+            <div class="cn-title">营销评估与优化</div>
+            <div class="en-title">诊断营销效果，给出优化建议</div>
+          </div>
+        </li>
+        <li class="module04-item">
+          <div class="bg-img">
+            <img src="/public/img/module04-1.webp" alt="">
+          </div>
+          <div class="text">
+            <div class="cn-title">定制化咨询产品开发</div>
+            <div class="en-title">针对特定商业需求，客制化数据产品</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="module05">
+      <div class="center">
+        <div class="left-text">
+          <div class="title">以运营为保障，发挥企业培训价值</div>
+          <div class="note">功能成熟可配置</div>
+          <div class="cont">
+            数据的意义在于分析、诊断商业问题，并预测、优化商业决策，从而最大化商业价值
+          </div>
+        </div>
+        <div class="right-img wow rollIn">
+          <img src="/public/img/module05.webp" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="module06" style="background-image: url(/public/img/module06.png);">
+      <div class="module-title">
+        <h2 class="title">
+          我们是充满激情的年轻团队，<br>
+          致力于帮助企业将数据价值变现，<br>
+          同时帮助想要从事数据分析行业的个人快速成长
+        </h2>
+      </div>
+      <ul class="module06-list center">
+        <li class="module06-item wow fadeInUp">
+          <p>关注我们的公众号</p>
+          <img src="/public/img/qrcode01.jpg" alt="">
+        </li>
+        <li class="module06-item wow fadeInUp">
+          <p>业务咨询请联系</p>
+          <img src="/public/img/qrcode02.jpg" alt="">
+        </li>
+      </ul>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

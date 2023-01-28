@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner" style="background-image: url(/public/img/class-banner.png);">
+      <div class="title">公司介绍</div>
+      <div class="note">
+        <p>圆之轶（上海）数据技术有限责任公司致力于用数据分析、算法模型解决企业痛点，从供应链到营销端到消费者，打造一体化咨询产品方案；同时帮助数据行业的从业者提升个人能力，科普数据价值，推动数据行业发展。
+
+        </p>
+        <p>创始人曾任某全球知名市场研究有限公司数据分析咨询团队产品总监,
+          在美妆、个护、食品、奢侈品、零售、电商、媒体等行业有10年大数据分析咨询经验，擅长各类大数据分析建模和定制化数据方案咨询。公司核心成员多为模型算法与分析咨询背景，年轻、靠谱、高学历。
+        </p>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="module-title">
+        <h2 class="title">数据赋能，欢迎垂询</h2>
+        <div class="note">数据赋能，欢迎垂询</div>
+      </div>
+      <ul class="contact-list center">
+        <li class="contact-item">
+          <div class="title">
+            <div class="img" style="background-image: url(/public/img/contact01.webp);"></div>
+            <h2>DataSmart</h2>
+          </div>
+          <div class="info">
+            <div class="logo">
+              <img src="/public/img/data-smart-logo.jpg" alt="">
+            </div>
+            <div class="contact-info">
+              <p>课程咨询请联系小助手微信</p>
+              <img src="/public/img/qrcode03.jpg" alt="">
+            </div>
+          </div>
+        </li>
+        <li class="contact-item">
+          <div class="title">
+            <div class="img" style="background-image: url(/public/img/contact03.webp);"></div>
+            <h2>数据咨询产品</h2>
+          </div>
+          <div class="info">
+            <div class="logo">
+              <img src="/public/img/logo.png" alt="">
+            </div>
+            <div class="contact-info">
+              <p>产品咨询请联系</p>
+              <img src="/public/img/qrcode02.jpg" alt="">
+              <p>Icy Wang:15800604125</p>
+              <p>icywang_yzy@163.com</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

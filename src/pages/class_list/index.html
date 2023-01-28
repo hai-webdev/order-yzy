@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.3" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+  <section class="banner">
+    <img src="/public/img/class_list-banner.png" alt="">
+  </section>
+  <section class="product-container center">
+    <h2 class="title">产品列表</h2>
+    <hr>
+    <label class="search">
+      <input type="text" placeholder="当前条件下搜索">
+      <i class="icon"></i>
+    </label>
+    <div class="screen">
+      <dl class="selected-box">
+        <dt>已选择：</dt>
+        <dd>DataSmart</dd>
+        <dd>职业能力提升</dd>
+      </dl>
+      <!-- <dl class="screen-list">
+        <dt>课程品牌：</dt>
+        <dd>
+          <a href="">DataSmart</a>
+        </dd>
+        <dd>
+          <a href="">Datark</a>
+        </dd>
+      </dl> -->
+      <dl class="screen-list">
+        <dt>课程类型：</dt>
+        <dd>
+          <a href="">商业数据分析</a>
+        </dd>
+        <dd>
+          <a href="">数据分析技能</a>
+        </dd>
+        <dd>
+          <a href="">大咖直播回放</a>
+        </dd>
+        <dd>
+          <a href="">人力资源</a>
+        </dd>
+      </dl>
+    </div>
+    <ul class="product-list">
+      <li class="product-item">
+        <a href="/class_view.html" class="img" style="background-image: url(/public/img/pro01.png);"></a>
+        <dl class="text">
+          <dt class="title">
+            <a href="">Excel在企业管理中应用技巧</a>
+          </dt>
+          <dd>老师：周老师</dd>
+          <dd>课时：20</dd>
+        </dl>
+        <a href="" class="btn">课程平台</a>
+      </li>
+      <li class="product-item">
+        <a href="/class_view.html" class="img" style="background-image: url(/public/img/pro02.png);"></a>
+        <dl class="text">
+          <dt class="title">
+            <a href="">Excel在企业管理中应用技巧</a>
+          </dt>
+          <dd>老师：周老师</dd>
+          <dd>课时：20</dd>
+        </dl>
+        <a href="" class="btn">课程平台</a>
+      </li>
+      <li class="product-item">
+        <a href="/class_view.html" class="img" style="background-image: url(/public/img/pro03.jpg);"></a>
+        <dl class="text">
+          <dt class="title">
+            <a href="">Excel在企业管理中应用技巧</a>
+          </dt>
+          <dd>老师：周老师</dd>
+          <dd>课时：20</dd>
+        </dl>
+        <a href="" class="btn">课程平台</a>
+      </li>
+      <li class="product-item">
+        <a href="/class_view.html" class="img" style="background-image: url(/public/img/pro04.png);"></a>
+        <dl class="text">
+          <dt class="title">
+            <a href="">Excel在企业管理中应用技巧</a>
+          </dt>
+          <dd>老师：周老师</dd>
+          <dd>课时：20</dd>
+        </dl>
+        <a href="" class="btn">课程平台</a>
+      </li>
+      <li class="product-item">
+        <a href="/class_view.html" class="img" style="background-image: url(/public/img/pro01.png);"></a>
+        <dl class="text">
+          <dt class="title">
+            <a href="">Excel在企业管理中应用技巧</a>
+          </dt>
+          <dd>老师：周老师</dd>
+          <dd>课时：20</dd>
+        </dl>
+        <a href="" class="btn">课程平台</a>
+      </li>
+      <li class="product-item">
+        <a href="/class_view.html" class="img" style="background-image: url(/public/img/pro02.png);"></a>
+        <dl class="text">
+          <dt class="title">
+            <a href="">Excel在企业管理中应用技巧</a>
+          </dt>
+          <dd>老师：周老师</dd>
+          <dd>课时：20</dd>
+        </dl>
+        <a href="" class="btn">课程平台</a>
+      </li>
+      <li class="product-item">
+        <a href="/class_view.html" class="img" style="background-image: url(/public/img/pro03.jpg);"></a>
+        <dl class="text">
+          <dt class="title">
+            <a href="">Excel在企业管理中应用技巧</a>
+          </dt>
+          <dd>老师：周老师</dd>
+          <dd>课时：20</dd>
+        </dl>
+        <a href="" class="btn">课程平台</a>
+      </li>
+      <li class="product-item">
+        <a href="/class_view.html" class="img" style="background-image: url(/public/img/pro04.png);"></a>
+        <dl class="text">
+          <dt class="title">
+            <a href="">Excel在企业管理中应用技巧</a>
+          </dt>
+          <dd>老师：周老师</dd>
+          <dd>课时：20</dd>
+        </dl>
+        <a href="" class="btn">课程平台</a>
+      </li>
+    </ul>
+    <div class="pagelist">
+      <a href="">上一页</a>
+      <a href="" class="status">1</a>
+      <a href="">2</a>
+      <a href="">3</a>
+      <a href="">...</a>
+      <a href="">6</a>
+      <a href="">7</a>
+      <a href="">下一页</a>
+    </div>
+  </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

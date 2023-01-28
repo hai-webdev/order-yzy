@@ -1,0 +1,106 @@
+@import "../../assets/global.less";
+
+.module-title {
+  margin-bottom: 30px;
+  text-align: center;
+  h2.title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .note {
+    color: #999;
+    font-size: 14px;
+  }
+}
+
+section.banner {
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .note {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    p{
+      margin-bottom: 20px;
+      line-height: 1.5;
+      text-indent: 2em;
+    }
+  }
+}
+section.contact{
+    padding: 60px 0;
+    ul.contact-list{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      li.contact-item{
+        width: calc(33% - 40px);
+        margin: 0 20px;
+        transition: .6s;
+        &:hover{
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        .title{
+          width: 100%;
+          height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          position: relative;
+          .img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            .bgImg(cover);
+            z-index: 1;
+            transition: .6s;
+          }
+          &:hover{
+            .img{
+              transform: scale(1.1);
+            }
+          }
+          h2{
+            color: white;
+            font-size: 24px;
+            position: relative;
+            z-index: 2;
+          }
+        }
+        .info{
+          background-color: #2f82ff;
+          color: white;
+          padding: 30px;
+          .logo{
+            height: 80px;
+            margin: 0 auto 30px;
+            img{
+              height: 100%;
+              width: auto;
+              margin: 0 auto;
+            }
+          }
+          .contact-info{
+            p{
+              text-align: center;
+              font-size: 18px;
+              margin-bottom: 20px;
+            }
+            img{
+              width: 200px;
+              margin: 0 auto 20px;
+            }
+          }
+        }
+      }
+    }
+}
